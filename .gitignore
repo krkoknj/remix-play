@@ -1,0 +1,29 @@
+# ────────────── python-playlist-ai ──────────────
+# 가상환경
+python-playlist-ai/venv/
+# 파이썬 캐시
+python-playlist-ai/__pycache__/
+python-playlist-ai/*.py[cod]
+# DB 파일
+python-playlist-ai/*.db
+# 환경변수
+python-playlist-ai/.env
+
+# ────────────── remix-music-ai ──────────────
+# Node 모듈
+remix-music-ai/node_modules/
+# Remix 빌드 결과물 및 캐시
+remix-music-ai/.cache/
+remix-music-ai/build/
+# 환경변수
+remix-music-ai/.env
+
+# ────────────── 공통 ──────────────
+# IDE 설정
+.vscode/
+.idea/
+# OS 임시 파일
+.DS_Store
+Thumbs.db
+# 로그
+*.log
